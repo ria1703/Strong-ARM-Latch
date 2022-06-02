@@ -1,0 +1,24 @@
+2022-05-31 08:42:48 - [INFO] - {{EXTRACTING FILES}} Extracting compressed files in: /home/krishna/Strong_Arm_MPW6
+2022-05-31 08:42:48 - [INFO] - {{Project Type Info}} analog
+2022-05-31 08:42:48 - [INFO] - {{Project GDS Info}} user_analog_project_wrapper: abb23bc6d6891972936e14fe7b9382be38c46d6f
+2022-05-31 08:42:48 - [INFO] - {{Tools Info}} KLayout: v0.27.8 | Magic: v8.3.274
+2022-05-31 08:42:48 - [INFO] - {{PDKs Info}} Open PDKs: a3d6ffea8022332b859daa454cef7ee7131c5181 | Skywater PDK: f70d8ca46961ff92719d8870a18a076370b85f6c
+2022-05-31 08:42:48 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_42_48/logs'
+2022-05-31 08:42:48 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, Makefile, Default, Documentation, Consistency, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea]
+2022-05-31 08:42:48 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 13: License
+2022-05-31 08:42:49 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/krishna/Strong_Arm_MPW6.
+2022-05-31 08:42:49 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2022-05-31 08:42:50 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/krishna/Strong_Arm_MPW6.
+2022-05-31 08:42:50 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2022-05-31 08:42:50 - [ERROR] - SPDX COMPLIANCE SYMLINK FILE NOT FOUND in /home/krishna/Strong_Arm_MPW6/openlane/Makefile
+2022-05-31 08:42:50 - [WARNING] - {{SPDX COMPLIANCE CHECK FAILED}} Found 90 non-compliant file(s) with the SPDX Standard.
+2022-05-31 08:42:50 - [INFO] - SPDX COMPLIANCE: NON-COMPLIANT FILE(S) PREVIEW: ['/home/krishna/Strong_Arm_MPW6/Makefile', '/home/krishna/Strong_Arm_MPW6/verilog/dv/Makefile', '/home/krishna/Strong_Arm_MPW6/verilog/dv/mprj_por/mprj_por.c', '/home/krishna/Strong_Arm_MPW6/verilog/dv/mprj_por/mprj_por_tb.v', '/home/krishna/Strong_Arm_MPW6/verilog/dv/mprj_por/Makefile', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/uprj_analog_netlists.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/example_por.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/user_analog_proj_example.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/user_analog_project_wrapper.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/comparator.v', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_35_25/logs/tools.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_35_25/logs/gds.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_35_25/logs/pdks.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___07_11_48/logs/tools.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___07_11_48/logs/gds.info']
+2022-05-31 08:42:50 - [INFO] - For the full SPDX compliance report check: /home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_42_48/logs/spdx_compliance_report.log
+2022-05-31 08:42:50 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 13: Makefile
+2022-05-31 08:42:50 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2022-05-31 08:42:50 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 13: Default
+2022-05-31 08:42:50 - [INFO] - {{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
+2022-05-31 08:42:50 - [INFO] - {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
+2022-05-31 08:42:50 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 13: Documentation
+2022-05-31 08:42:50 - [INFO] - {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+2022-05-31 08:42:50 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 13: Consistency

@@ -1,0 +1,62 @@
+2022-05-31 14:11:20 - [INFO] - {{EXTRACTING FILES}} Extracting compressed files in: /home/krishna/Strong_Arm_MPW6
+2022-05-31 14:11:20 - [INFO] - {{Project Type Info}} analog
+2022-05-31 14:11:20 - [INFO] - {{Project GDS Info}} user_analog_project_wrapper: abb23bc6d6891972936e14fe7b9382be38c46d6f
+2022-05-31 14:11:22 - [INFO] - {{Tools Info}} KLayout: v0.27.8 | Magic: v8.3.274
+2022-05-31 14:11:22 - [INFO] - {{PDKs Info}} Open PDKs: a3d6ffea8022332b859daa454cef7ee7131c5181 | Skywater PDK: f70d8ca46961ff92719d8870a18a076370b85f6c
+2022-05-31 14:11:22 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___14_11_20/logs'
+2022-05-31 14:11:22 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, Makefile, Default, Documentation, Consistency, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea]
+2022-05-31 14:11:22 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 13: License
+2022-05-31 14:11:23 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/krishna/Strong_Arm_MPW6.
+2022-05-31 14:11:23 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2022-05-31 14:11:24 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/krishna/Strong_Arm_MPW6.
+2022-05-31 14:11:24 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2022-05-31 14:11:24 - [ERROR] - SPDX COMPLIANCE SYMLINK FILE NOT FOUND in /home/krishna/Strong_Arm_MPW6/openlane/Makefile
+2022-05-31 14:11:24 - [ERROR] - SPDX COMPLIANCE FILE UNICODE DECODE EXCEPTION in (/home/krishna/Strong_Arm_MPW6/netgen/.run_lvs_wrapper_xschem.sh.swp): 'utf-8' codec can't decode byte 0xd2 in position 20: invalid continuation byte
+2022-05-31 14:11:24 - [WARNING] - {{SPDX COMPLIANCE CHECK FAILED}} Found 93 non-compliant file(s) with the SPDX Standard.
+2022-05-31 14:11:24 - [INFO] - SPDX COMPLIANCE: NON-COMPLIANT FILE(S) PREVIEW: ['/home/krishna/Strong_Arm_MPW6/Makefile', '/home/krishna/Strong_Arm_MPW6/verilog/dv/Makefile', '/home/krishna/Strong_Arm_MPW6/verilog/dv/mprj_por/mprj_por.c', '/home/krishna/Strong_Arm_MPW6/verilog/dv/mprj_por/mprj_por_tb.v', '/home/krishna/Strong_Arm_MPW6/verilog/dv/mprj_por/Makefile', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/uprj_analog_netlists.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/example_por.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/user_analog_proj_example.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/user_analog_project_wrapper.v', '/home/krishna/Strong_Arm_MPW6/verilog/rtl/comparator.v', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_35_25/logs/tools.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_35_25/logs/gds.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___08_35_25/logs/pdks.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___14_11_20/logs/tools.info', '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___14_11_20/logs/gds.info']
+2022-05-31 14:11:24 - [INFO] - For the full SPDX compliance report check: /home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___14_11_20/logs/spdx_compliance_report.log
+2022-05-31 14:11:24 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 13: Makefile
+2022-05-31 14:11:24 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2022-05-31 14:11:24 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 13: Default
+2022-05-31 14:11:24 - [INFO] - {{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
+2022-05-31 14:11:24 - [INFO] - {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
+2022-05-31 14:11:24 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 13: Documentation
+2022-05-31 14:11:24 - [INFO] - {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+2022-05-31 14:11:24 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 13: Consistency
+2022-05-31 14:11:26 - [INFO] - HIERARCHY CHECK PASSED: Module user_analog_project_wrapper is instantiated in caravan. 
+2022-05-31 14:11:26 - [INFO] - COMPLEXITY CHECK PASSED: Netlist caravan contains at least 8 instances (68 instances). 
+2022-05-31 14:11:26 - [INFO] - MODELING CHECK PASSED: Netlist caravan is structural.
+2022-05-31 14:11:26 - [INFO] - SUBMODULE HOOKS CHECK PASSED: All module ports for user_analog_project_wrapper are correctly connected in the top level netlist caravan.
+2022-05-31 14:11:26 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} caravan netlist passed all consistency checks.
+2022-05-31 14:11:26 - [INFO] - PORTS CHECK PASSED: Netlist user_analog_project_wrapper ports match the golden wrapper ports
+2022-05-31 14:11:26 - [INFO] - COMPLEXITY CHECK PASSED: Netlist user_analog_project_wrapper contains at least 1 instances (12 instances). 
+2022-05-31 14:11:26 - [INFO] - MODELING CHECK PASSED: Netlist user_analog_project_wrapper is structural.
+2022-05-31 14:11:26 - [INFO] - LAYOUT CHECK PASSED: The GDS layout for user_analog_project_wrapper matches the provided structural netlist.
+2022-05-31 14:11:26 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} user_analog_project_wrapper netlist passed all consistency checks.
+2022-05-31 14:11:26 - [INFO] - {{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+2022-05-31 14:11:26 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 13: XOR
+2022-05-31 14:11:28 - [ERROR] - XOR CHECK FILE NOT FOUND in /home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___14_11_20/logs/xor_check.total
+2022-05-31 14:11:28 - [WARNING] - {{XOR CHECK FAILED}} The GDS file has non-conforming geometries.
+2022-05-31 14:11:28 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 13: Magic DRC
+2022-05-31 14:11:28 - [INFO] - 0 DRC violations
+2022-05-31 14:11:28 - [INFO] - {{MAGIC DRC CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2022-05-31 14:11:28 - [INFO] - {{STEP UPDATE}} Executing Check 8 of 13: Klayout FEOL
+2022-05-31 14:11:31 - [INFO] - No DRC Violations found
+2022-05-31 14:11:31 - [INFO] - {{Klayout FEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2022-05-31 14:11:31 - [INFO] - {{STEP UPDATE}} Executing Check 9 of 13: Klayout BEOL
+2022-05-31 14:11:35 - [INFO] - No DRC Violations found
+2022-05-31 14:11:35 - [INFO] - {{Klayout BEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2022-05-31 14:11:35 - [INFO] - {{STEP UPDATE}} Executing Check 10 of 13: Klayout Offgrid
+2022-05-31 14:11:38 - [INFO] - No DRC Violations found
+2022-05-31 14:11:38 - [INFO] - {{Klayout Offgrid CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2022-05-31 14:11:38 - [INFO] - {{STEP UPDATE}} Executing Check 11 of 13: Klayout Metal Minimum Clear Area Density
+2022-05-31 14:11:39 - [INFO] - No DRC Violations found
+2022-05-31 14:11:39 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2022-05-31 14:11:39 - [INFO] - {{STEP UPDATE}} Executing Check 12 of 13: Klayout Pin Label Purposes Overlapping Drawing
+2022-05-31 14:11:40 - [INFO] - No DRC Violations found
+2022-05-31 14:11:40 - [INFO] - {{Klayout Pin Label Purposes Overlapping Drawing CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2022-05-31 14:11:40 - [INFO] - {{STEP UPDATE}} Executing Check 13 of 13: Klayout ZeroArea
+2022-05-31 14:11:41 - [INFO] - No DRC Violations found
+2022-05-31 14:11:41 - [INFO] - {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+2022-05-31 14:11:41 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/krishna/Strong_Arm_MPW6/precheck_results/31_MAY_2022___14_11_20/logs'
+2022-05-31 14:11:41 - [CRITICAL] - {{FAILURE}} 1 Check(s) Failed: ['XOR'] !!!
